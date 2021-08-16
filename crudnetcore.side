@@ -1,0 +1,525 @@
+{
+  "id": "269f99d5-868a-4331-977b-f1ea4794bf10",
+  "version": "2.0",
+  "name": "crudnetcore",
+  "url": "https://localhost:44352",
+  "tests": [{
+    "id": "62a0e2c3-8571-4ffd-bbfa-b25217d570d4",
+    "name": "crudnetcore",
+    "commands": [{
+      "id": "c993cba5-afa6-4ada-9e72-43c93f912442",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9a40c2e-a59a-42f1-be9b-a922ae423228",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x530",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0027f0da-3a09-45c5-8e2f-95202a0a1c1a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Crud Libros",
+      "targets": [
+        ["linkText=Crud Libros", "linkText"],
+        ["css=.nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Crud Libros')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Libros')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Crud Libros')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b40ee724-c438-456d-a7e6-cc30900d6afd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Agregar Nuevo Libro",
+      "targets": [
+        ["linkText=Agregar Nuevo Libro", "linkText"],
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//a[contains(text(),'Agregar Nuevo Libro')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Libros/Create')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Agregar Nuevo Libro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4304a30-c081-44a7-ad5e-49c2534a92b1",
+      "comment": "",
+      "command": "click",
+      "target": "id=Titulo",
+      "targets": [
+        ["id=Titulo", "id"],
+        ["name=Titulo", "name"],
+        ["css=#Titulo", "css:finder"],
+        ["xpath=//input[@id='Titulo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e65870c-0684-4390-8074-b323ed918b03",
+      "comment": "",
+      "command": "click",
+      "target": "id=Titulo",
+      "targets": [
+        ["id=Titulo", "id"],
+        ["name=Titulo", "name"],
+        ["css=#Titulo", "css:finder"],
+        ["xpath=//input[@id='Titulo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a90a59a-3db3-44c0-a904-6ff217bcc3a5",
+      "comment": "",
+      "command": "type",
+      "target": "id=Titulo",
+      "targets": [
+        ["id=Titulo", "id"],
+        ["name=Titulo", "name"],
+        ["css=#Titulo", "css:finder"],
+        ["xpath=//input[@id='Titulo']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Libro nuevo"
+    }, {
+      "id": "0db72064-a098-496a-b21d-364f3680f3b5",
+      "comment": "",
+      "command": "click",
+      "target": "id=Descripcion",
+      "targets": [
+        ["id=Descripcion", "id"],
+        ["name=Descripcion", "name"],
+        ["css=#Descripcion", "css:finder"],
+        ["xpath=//input[@id='Descripcion']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7b26c3c-392a-40dc-969c-9adbdbc8418a",
+      "comment": "",
+      "command": "click",
+      "target": "id=Descripcion",
+      "targets": [
+        ["id=Descripcion", "id"],
+        ["name=Descripcion", "name"],
+        ["css=#Descripcion", "css:finder"],
+        ["xpath=//input[@id='Descripcion']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9d3f705-be93-453d-9b57-21d62bba4f79",
+      "comment": "",
+      "command": "type",
+      "target": "id=Descripcion",
+      "targets": [
+        ["id=Descripcion", "id"],
+        ["name=Descripcion", "name"],
+        ["css=#Descripcion", "css:finder"],
+        ["xpath=//input[@id='Descripcion']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Libro nuevo 2"
+    }, {
+      "id": "5aca6a54-2eed-44b4-8350-fee750b54097",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(2)",
+      "targets": [
+        ["css=.form-group:nth-child(2)", "css:finder"],
+        ["xpath=//form/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0d55c51-25cb-476f-bd9e-67d2745063ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form[@action='/Libros/Create']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1011d421-c05b-4878-9cba-739cf9257877",
+      "comment": "",
+      "command": "click",
+      "target": "id=FechaLanzamiento",
+      "targets": [
+        ["id=FechaLanzamiento", "id"],
+        ["name=FechaLanzamiento", "name"],
+        ["css=#FechaLanzamiento", "css:finder"],
+        ["xpath=//input[@id='FechaLanzamiento']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23e71912-74f5-4abf-ba90-be47f6b13526",
+      "comment": "",
+      "command": "type",
+      "target": "id=FechaLanzamiento",
+      "targets": [
+        ["id=FechaLanzamiento", "id"],
+        ["name=FechaLanzamiento", "name"],
+        ["css=#FechaLanzamiento", "css:finder"],
+        ["xpath=//input[@id='FechaLanzamiento']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "2021-08-04"
+    }, {
+      "id": "a25069b4-6ce9-4c82-9227-f22ee402ea6e",
+      "comment": "",
+      "command": "click",
+      "target": "id=Autor",
+      "targets": [
+        ["id=Autor", "id"],
+        ["name=Autor", "name"],
+        ["css=#Autor", "css:finder"],
+        ["xpath=//input[@id='Autor']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc56b78e-89d7-4aab-a034-355bbd9452d3",
+      "comment": "",
+      "command": "type",
+      "target": "id=Autor",
+      "targets": [
+        ["id=Autor", "id"],
+        ["name=Autor", "name"],
+        ["css=#Autor", "css:finder"],
+        ["xpath=//input[@id='Autor']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "Carlo"
+    }, {
+      "id": "8fca163b-f21d-4717-a031-de74b7e9fea3",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=Autor",
+      "targets": [
+        ["id=Autor", "id"],
+        ["name=Autor", "name"],
+        ["css=#Autor", "css:finder"],
+        ["xpath=//input[@id='Autor']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "9ff189db-eeef-4b68-a2fb-3deffa7148da",
+      "comment": "",
+      "command": "type",
+      "target": "id=Autor",
+      "targets": [
+        ["id=Autor", "id"],
+        ["name=Autor", "name"],
+        ["css=#Autor", "css:finder"],
+        ["xpath=//input[@id='Autor']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "Carlo Cordova"
+    }, {
+      "id": "05b371b2-0fd7-42d7-b58e-6309940559d4",
+      "comment": "",
+      "command": "click",
+      "target": "id=Precio",
+      "targets": [
+        ["id=Precio", "id"],
+        ["name=Precio", "name"],
+        ["css=#Precio", "css:finder"],
+        ["xpath=//input[@id='Precio']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bd48664-6fb9-4250-9477-145bb15e1cb3",
+      "comment": "",
+      "command": "type",
+      "target": "id=Precio",
+      "targets": [
+        ["id=Precio", "id"],
+        ["name=Precio", "name"],
+        ["css=#Precio", "css:finder"],
+        ["xpath=//input[@id='Precio']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "30"
+    }, {
+      "id": "6badb6ad-bd41-44d3-bfac-f345dabc0620",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@value='Crear Libro']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "304f226d-b004-4d67-8c89-2231e9d14a14",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(6) .btn-warning",
+      "targets": [
+        ["css=tr:nth-child(6) .btn-warning", "css:finder"],
+        ["xpath=(//a[contains(text(),'Editar')])[6]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Libros/Edit/1005')]", "xpath:href"],
+        ["xpath=//tr[6]/td[7]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7dfb106-5c21-45e3-ad0c-ace03d656572",
+      "comment": "",
+      "command": "click",
+      "target": "id=Titulo",
+      "targets": [
+        ["id=Titulo", "id"],
+        ["name=Titulo", "name"],
+        ["css=#Titulo", "css:finder"],
+        ["xpath=//input[@id='Titulo']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ab38550-1d18-4f86-bb65-f9f9b1367dfb",
+      "comment": "",
+      "command": "click",
+      "target": "id=Titulo",
+      "targets": [
+        ["id=Titulo", "id"],
+        ["name=Titulo", "name"],
+        ["css=#Titulo", "css:finder"],
+        ["xpath=//input[@id='Titulo']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77dca577-c66f-44a3-99ad-a0199c1ffee5",
+      "comment": "",
+      "command": "click",
+      "target": "id=Titulo",
+      "targets": [
+        ["id=Titulo", "id"],
+        ["name=Titulo", "name"],
+        ["css=#Titulo", "css:finder"],
+        ["xpath=//input[@id='Titulo']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2cbb86f-80df-4a53-a8cb-ac3c3b69b85f",
+      "comment": "",
+      "command": "type",
+      "target": "id=Titulo",
+      "targets": [
+        ["id=Titulo", "id"],
+        ["name=Titulo", "name"],
+        ["css=#Titulo", "css:finder"],
+        ["xpath=//input[@id='Titulo']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Libro de prueba"
+    }, {
+      "id": "f8756468-9683-4644-9e17-4de0cca437d8",
+      "comment": "",
+      "command": "click",
+      "target": "id=Descripcion",
+      "targets": [
+        ["id=Descripcion", "id"],
+        ["name=Descripcion", "name"],
+        ["css=#Descripcion", "css:finder"],
+        ["xpath=//input[@id='Descripcion']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22d1652b-fb06-4840-9037-3b99a88e1b9a",
+      "comment": "",
+      "command": "click",
+      "target": "id=Descripcion",
+      "targets": [
+        ["id=Descripcion", "id"],
+        ["name=Descripcion", "name"],
+        ["css=#Descripcion", "css:finder"],
+        ["xpath=//input[@id='Descripcion']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12feb5bf-4879-4380-90ac-1f917b378408",
+      "comment": "",
+      "command": "click",
+      "target": "id=Descripcion",
+      "targets": [
+        ["id=Descripcion", "id"],
+        ["name=Descripcion", "name"],
+        ["css=#Descripcion", "css:finder"],
+        ["xpath=//input[@id='Descripcion']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcb7da23-0886-4598-9191-5c7d5a73e9ed",
+      "comment": "",
+      "command": "type",
+      "target": "id=Descripcion",
+      "targets": [
+        ["id=Descripcion", "id"],
+        ["name=Descripcion", "name"],
+        ["css=#Descripcion", "css:finder"],
+        ["xpath=//input[@id='Descripcion']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Libro de prueba modificado"
+    }, {
+      "id": "ba7a121b-248d-4a82-abcd-89c79558fcdb",
+      "comment": "",
+      "command": "click",
+      "target": "id=FechaLanzamiento",
+      "targets": [
+        ["id=FechaLanzamiento", "id"],
+        ["name=FechaLanzamiento", "name"],
+        ["css=#FechaLanzamiento", "css:finder"],
+        ["xpath=//input[@id='FechaLanzamiento']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a94c5f3-aecd-4b37-980b-28886c328582",
+      "comment": "",
+      "command": "type",
+      "target": "id=FechaLanzamiento",
+      "targets": [
+        ["id=FechaLanzamiento", "id"],
+        ["name=FechaLanzamiento", "name"],
+        ["css=#FechaLanzamiento", "css:finder"],
+        ["xpath=//input[@id='FechaLanzamiento']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "2021-08-11"
+    }, {
+      "id": "b647b3e7-dadf-4029-8457-c441bc16fff5",
+      "comment": "",
+      "command": "click",
+      "target": "id=Precio",
+      "targets": [
+        ["id=Precio", "id"],
+        ["name=Precio", "name"],
+        ["css=#Precio", "css:finder"],
+        ["xpath=//input[@id='Precio']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7313c353-d9a4-4f8e-997f-753f038b0ffb",
+      "comment": "",
+      "command": "type",
+      "target": "id=Precio",
+      "targets": [
+        ["id=Precio", "id"],
+        ["name=Precio", "name"],
+        ["css=#Precio", "css:finder"],
+        ["xpath=//input[@id='Precio']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "23"
+    }, {
+      "id": "c268da2b-7532-4173-9b0d-261acdae0e53",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(7)",
+      "targets": [
+        ["css=.form-group:nth-child(7)", "css:finder"],
+        ["xpath=//div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fc77d25-8879-42ea-8113-312bd397b83a",
+      "comment": "",
+      "command": "click",
+      "target": "id=Precio",
+      "targets": [
+        ["id=Precio", "id"],
+        ["name=Precio", "name"],
+        ["css=#Precio", "css:finder"],
+        ["xpath=//input[@id='Precio']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47f6e478-74e0-4ae2-b7dc-6ad4482dc14f",
+      "comment": "",
+      "command": "type",
+      "target": "id=Precio",
+      "targets": [
+        ["id=Precio", "id"],
+        ["name=Precio", "name"],
+        ["css=#Precio", "css:finder"],
+        ["xpath=//input[@id='Precio']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "23.4"
+    }, {
+      "id": "eac62ac7-efb1-4b9d-9cf5-a639b6909aaf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(7)",
+      "targets": [
+        ["css=.form-group:nth-child(7)", "css:finder"],
+        ["xpath=//div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39aeb35a-d5df-486f-8c98-9aa0c1358be2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@value='Editar Libro']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8555138d-d2a9-4797-ada0-59772e61593f",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(6) .btn-danger",
+      "targets": [
+        ["css=tr:nth-child(6) .btn-danger", "css:finder"],
+        ["xpath=(//a[contains(text(),'Eliminar')])[6]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Libros/Delete/1005')]", "xpath:href"],
+        ["xpath=//tr[6]/td[7]/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "021a88a7-60b9-412e-9143-06e7fb29c46d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@value='Eliminar Libro']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "03ff5b81-45a7-4e2e-97e5-0b2e3ad702c2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["62a0e2c3-8571-4ffd-bbfa-b25217d570d4"]
+  }],
+  "urls": ["https://localhost:44352/"],
+  "plugins": []
+}
